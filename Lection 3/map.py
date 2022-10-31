@@ -26,7 +26,7 @@
 # for e in data:
 #     print(e)
 
-# Доработанная задача из файла Task for compre...
+# Доработанная задача из файла Task for compre... Удаляем функцию select
 
 def where(f, col):
     return [x for x in col if f(x)]

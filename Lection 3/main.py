@@ -43,4 +43,5 @@ def calc(op, a, b):
     print(op(a,b))
 
 calc(mult, 4, 5)
-calc(lambda x, y: x+y, 4, 5)
+calc(lambda x, y: x+y, 4, 5) # функцию через lambda сразу загнали в другую функцию
+ 
